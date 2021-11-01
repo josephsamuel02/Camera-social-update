@@ -21,7 +21,6 @@ import DesktopTopNav from '../Components/DesktopNavs/DesktopTopNav';
 
 
 
-
 //WebPages components
 // import Login from '../Components/Login & Register/LogIn/Login';
 // import Register from '../Components/Login & Register/Register/Register'
