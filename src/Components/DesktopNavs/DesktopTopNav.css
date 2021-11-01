@@ -1,0 +1,57 @@
+
+
+/* Mobile view Style */
+
+@media(max-width: 543px){
+    .desktoptopnav{
+        display: none;
+    }
+
+    }
+    
+    
+    /* for tablet view */
+    
+    @media(min-width: 544px)  {
+        .desktoptopnav{
+            display: none;
+        }
+    }
+
+
+            /* for desktop view */
+    
+            @media(min-width: 1020px){
+
+                .desktoptopnav{
+                    display:contents;
+
+                    margin: 0px;
+                    padding: 0px;
+
+                    position: fixed;
+                    top: 0px;
+                    left: 30%;
+                    right: 30%;
+
+                    display: flex;
+                    flex-direction: row;
+
+                    height: auto;
+
+                    background-color: white;
+                    box-shadow: 0px 1px 3px 1px rgba(226, 223, 223, 0.774);
+                    
+                    z-index: 3;
+
+                }
+
+
+                .desktoptopnav h1{
+                    margin: auto;
+                    padding: 10px;
+
+                    border-bottom: solid 3px dodgerblue;
+
+                }
+            }

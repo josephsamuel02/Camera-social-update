@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    }
+    
+    
+    
+    ::-webkit-scrollbar{
+        width: 2px;
+    
+    }
+    
+    ::-webkit-scrollbar-track{
+    border-radius: 0px;
+    }
+    
+    ::-webkit-scrollbar-thumb{
+        border-radius: 1px;
+        box-shadow: inset 0 0 3px dodgerblue;
+    
+    }
+    
+    ::-webkit-scrollbar-thumb:hover{
+        border-radius: 0px;
+        box-shadow: inset 0 0 10px dodgerblue;
+    
+    }
+
+    /* ::-webkit-slider-runnable-track{
+        height: 1px;
+    }
+
+    ::-webkit-slider-thumb{
+        height: 1px;
+        border-radius: 1px;
+        box-shadow: inset 0 0 3px dodgerblue;
+    }
+
+    ::-webkit-slide{
+        height: 0px;
+    } */

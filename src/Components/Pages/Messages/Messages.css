@@ -1,0 +1,92 @@
+.messages{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+}
+
+.message_card{
+    margin: 8px;
+    padding: 0px;
+
+    max-width: 100%;
+    max-height: 60px;
+
+    display: flex;
+    flex-direction: row;
+
+    border-radius: 40px;
+    box-shadow: 1px 1px 1px 1px rgb(239, 241, 243);
+    /* -1px -1px 2px 1px rgb(239, 241, 243); */
+    
+
+    background-color: white;
+
+}
+
+.message_card .message_image{
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    height: auto;
+}
+
+.message_card .message_image img{
+    margin: 0px;
+    padding: 0px;
+
+    height: 60px;
+    width: 60px;
+
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 100px;
+
+}
+
+.message_card .message_info{
+    margin: 0px;
+    padding: 4px 5px;
+    max-height: 50;
+
+    display: block;
+}
+
+.message_card .message_info .messanger_name{
+    margin: 0px;
+    padding: 0px;
+
+    height: 25px;
+
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+
+    color: black;
+}
+
+.message_card .message_info .last_message{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+
+    word-wrap: break-word;
+    overflow: hidden;
+
+    color: gray;
+}
+
+.message_card .message_info .message_time{
+    margin: 0px;
+    padding: 0px;
+
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: lighter;
+
+    color: silver;
+
+}

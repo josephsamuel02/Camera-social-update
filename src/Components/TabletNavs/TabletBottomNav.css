@@ -1,0 +1,54 @@
+
+
+/* Mobile view Style */
+
+@media(max-width: 543px){
+    .tabletbottomnav{
+        display: none;
+    }
+
+    }
+    
+    
+    /* for tablet view */
+    
+    @media(min-width: 544px)  {
+    
+   
+    .tabletbottomnav{
+        margin: 0px;
+        padding: 5px;
+        position: fixed;
+        bottom: 0px;
+        left: 35%;
+        right: 0px;
+
+        height: auto;
+        display: flex;
+        flex-direction: row;
+
+        box-shadow: 1px -1px 4px 1px rgba(214, 217, 226, 0.274);
+    background-color: white;
+    z-index: 3;
+    }
+
+
+       
+    .tabletbottomnav h1{
+        position: relative;
+        margin: auto;
+        padding: 0px;
+
+    }
+
+} 
+    
+
+        /* for desktop view */
+    
+        @media(min-width: 1020px){
+            .tabletbottomnav{
+                display: none;
+            }
+        
+        }

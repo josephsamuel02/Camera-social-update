@@ -1,0 +1,328 @@
+/* Mobile view Style */
+
+@media(max-width: 543px){
+.tabletsidenav{
+    display: none;
+}
+}
+
+
+/* for tablet view */
+
+@media(min-width: 544px)  {
+
+} 
+
+
+
+/* for desktop view */
+
+@media(min-width: 1020px){
+    .tabletsidenav{
+        display: none;
+    }
+
+}
+
+
+
+.tabletsidenav{
+margin: 0px;
+padding: 0px;
+
+position: fixed;
+left: 0px;
+top: 0px;
+bottom: 0px;
+
+max-width: 35%;
+max-height: 100%;
+background-color: white;
+z-index: 4;
+}
+
+
+
+.tabletsidenav #logo{
+margin: 3px 5px 0px;
+padding: 0px 0px;
+
+font-size: 26px;
+font-weight: bold;
+
+position: relative;
+
+color: dodgerblue;
+background-color: white;
+
+}
+
+
+#notificationsbox{
+    margin: 0px auto;
+    padding: 0px;
+
+    position: relative;
+    width: 80%;
+    height: 48%;
+    justify-content: center;
+    background-color: white;
+
+    border-left: solid 1px rgba(223, 217, 217, 0.651);
+    border-right: solid 1px rgba(223, 217, 217, 0.651);
+
+
+}
+
+#notestitle{
+    margin: 0px;
+    padding: 2px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: lighter;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    text-align: center;
+
+    color: blue;
+border-bottom: solid 1px rgba(192, 192, 192, 0.404);
+}
+
+#notestitle span{
+margin: 0px;
+padding: 0px 0px 0px 5px;
+}
+
+#notificationslist{
+    margin: 0px;
+    padding: 0px;
+
+    height: 100%;
+    background-color: white;
+
+}
+
+#notificationslist ul{
+text-decoration: none;
+margin: 0px;
+padding: 0px;
+
+max-height: 100%;
+
+overflow: scroll;
+
+}
+
+#notificationslist ul li{
+margin: 2px 0px;
+padding: 4px 10px;
+
+font-size: 18px;
+font-weight: lighter;
+
+height: auto;
+max-width: 100%;
+
+color: dodgerblue;
+background-color: white;
+border-bottom: solid 3px rgba(234, 235, 236, 0.658);
+word-wrap: break-word;
+}
+
+
+#notificationslist li .name{
+    margin: 0px;
+    padding: 0px 5px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+    color: blue;
+}
+
+
+#notificationslist li span{
+    margin: 0px;
+    padding: 0px;
+
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: rgb(68, 63, 63);
+    }
+
+    #friendsbtn{
+        margin:  25px auto 5px;
+        padding: 0px;
+        width: 50%;
+
+        justify-self: center;
+        
+
+        border-radius: 50px;
+
+     box-shadow:  1px 1px 5px 1px rgba(220, 226, 230, 0.692),
+        -1px -1px 5px 1px rgba(220, 226, 230, 0.692);
+
+
+            
+    }
+
+
+    #friendsbtn h3{
+        margin:  1px ;
+        padding: 4px 0px;
+        width: auto;
+        font-size: 16px;
+        font-family: sans-serif;
+        font-weight: lighter;
+        color: blue;
+
+        display: flex;
+        flex-direction: row;
+
+        justify-content: center;
+
+
+        text-align: center;
+        cursor: pointer;
+    }
+
+    #friendsbtn h3 span{
+        margin: 0px;
+        padding: 0px 0px 0px 5px;
+        }
+ 
+    #messagebox{
+        margin: 0px auto;
+        padding: 0px;
+    
+        position: relative;
+        width: 80%;
+        height: 48%;
+        justify-content: center;
+        background-color: white;
+
+        border-left: solid 1px rgba(223, 217, 217, 0.651);
+        border-right: solid 1px rgba(223, 217, 217, 0.651);
+
+
+}
+
+#messagetitle{
+    margin: 0px;
+    padding: 5px 2px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    text-align: center;
+
+    color: blue;
+    border-bottom: solid 1px rgba(192, 192, 192, 0.404);
+}
+
+#messagetitle span{
+margin: 0px;
+padding: 0px 0px 0px 5px;
+}
+
+#messagetitle #msgcount{
+    margin: 0px;
+    padding: 0px 3px;
+    font-size: 14px;
+    color: rgb(66, 63, 63);
+    background-color: rgba(214, 216, 218, 0.658);
+    border-radius: 100px;
+}
+
+#messagelist{
+
+    margin: 0px;
+    padding: 0px;
+
+    height: 100%;
+    background-color: white;
+
+}
+
+#messagelist .chatphoto{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+    justify-self: center;
+
+}
+
+
+
+#messagelist .chatphoto img{
+    margin: 0px;
+    padding: 0px;
+
+    
+    width: 27px;
+    height: 27px;
+    border-radius: 50px;
+    object-position: center;
+    object-fit: cover;
+
+
+}
+#messagelist ul{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    
+    max-height: 100%;
+    
+    overflow: scroll;
+    
+    }
+    
+    #messagelist ul li{
+    margin: 2px 0px;
+    padding: 4px 10px;
+    
+    font-size: 18px;
+    font-weight: lighter;
+    
+    height: auto;
+    max-width: 100%;
+    display: flex;
+    color: dodgerblue;
+    background-color: white;
+    border-bottom: solid 2px rgba(210, 212, 214, 0.466);
+    word-wrap: break-word;
+    }
+    
+    
+    #messagelist li .name{
+        margin: 0px;
+        padding: 6px 5px;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: lighter;
+    
+        color: blue;
+    }
+    
+        
+    #messagelist .indicator{
+        margin: auto 0px auto auto;
+        padding:  2px;
+        height: 1px;
+        width: 1px;
+
+        float: right;
+        background-color: red;
+        border-radius: 300px;
+        justify-self: center;
+    }

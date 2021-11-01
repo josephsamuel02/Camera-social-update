@@ -1,0 +1,72 @@
+
+/* Mobile view Style */
+
+@media(max-width: 543px){
+
+}
+
+
+.bottomnav{
+    margin: 0px;
+    padding: 0px;
+
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: auto;
+
+    background-color: white;
+
+
+    box-shadow: -1px -1px 3px 1px rgba(222, 233, 241, 0.733) ;
+
+    z-index: 4;
+
+}
+
+
+.bottomicons{
+    margin: 0px;
+    padding: 0px;
+    
+    position:relative;
+
+    height: auto;
+    max-width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction:row;
+}
+
+.bottomicons .icons{
+margin: auto;
+padding: 3px 15px 1px;
+/* border-top: solid 3px dodgerblue; */
+
+}
+
+
+
+
+
+
+/* for tablet view */
+
+@media(min-width: 544px)  {
+    .bottomnav{
+        display: none;
+        }
+} 
+
+
+
+/* for desktop view */
+
+@media(min-width: 1020px){
+.bottomnav{
+display: none;
+}
+
+}
+
