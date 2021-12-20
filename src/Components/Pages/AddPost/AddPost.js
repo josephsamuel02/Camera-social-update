@@ -20,7 +20,7 @@ const AddPost = () => {
                 {/* <img src="./photos/Cake.jpg" alt="" /> */}
             </div>
             <div id="available_medias">
-                <span><MdPhoto/>  Add Photo</span>
+                <span><MdPhoto/> Add Photo</span>
                 <span><MdLiveTv/>Add Video</span>
                 <span><MdMusicNote/>Add Audio</span>
             </div>

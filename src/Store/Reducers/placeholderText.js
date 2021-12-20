@@ -1,15 +1,11 @@
-
-
-const textReducer = ( state={}, action) => {
-    switch (action.type){
+const textReducer = (state = {}, action) => {
+    switch (action.type) {
         case "PLACEHOLDER_TEXT":
-            return {...state, Placeholder: action.payload }
+            return { ...state, ...action.payload };
 
-            default: return state;
+        default:
+            return state;
     }
-
-
-}
-
+};
 
 export default textReducer;

@@ -1,61 +1,135 @@
-.friends{
-    margin: 0px;
-    padding: 0px;
+/* Mobile view */
+@media (max-width: 543px) {
+    .friends {
+        margin: 0px;
+        padding: 0px;
 
-    max-width: 100%;
-}
-.friend_card{
-    margin: 8px;
-    padding: 0px;
+        max-width: 100%;
+    }
+    .friend_card {
+        margin: 8px;
+        padding: 0px;
 
-    max-width: 100%;
-    max-height: 50px;
+        max-width: 100%;
+        max-height: 50px;
 
-    display: flex;
-    flex-direction: row;
+        display: flex;
+        flex-direction: row;
 
-    border-radius: 40px;
-    box-shadow: 1px 1px 1px 1px rgb(239, 241, 243);
-    /* -1px -1px 2px 1px rgb(239, 241, 243); */
-    
+        border-radius: 40px;
+        box-shadow: 1px 1px 1px 1px rgb(239, 241, 243);
+        /* -1px -1px 2px 1px rgb(239, 241, 243); */
 
-    background-color: white;
+        background-color: white;
+    }
 
-}
+    .friend_card .friend_image {
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+        height: auto;
+    }
 
-.friend_card .friend_image{
-    margin: 0px;
-    padding: 0px;
-    width: auto;
-    height: auto;
-}
+    .friend_card .friend_image img {
+        margin: 0px;
+        padding: 0px;
 
-.friend_card .friend_image img{
-    margin: 0px;
-    padding: 0px;
+        height: 50px;
+        width: 50px;
 
-    height: 50px;
-    width: 50px;
+        object-fit: cover;
+        object-position: center;
 
-    object-fit: cover;
-    object-position: center;
+        border-radius: 100px;
+    }
 
-    border-radius: 100px;
+    .friend_card .friend_name {
+        margin: auto 5px;
+        padding: 0px;
 
-}
+        height: 25px;
 
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: lighter;
 
-
-.friend_card .friend_name{
-    margin: auto 5px;
-    padding: 0px;
-
-    height: 25px;
-
-    font-size: 15px;
-    font-family: sans-serif;
-    font-weight: lighter;
-
-    color: black;
+        color: black;
+    }
 }
 
+/* for tablet view */
+@media (min-width: 544.9px) {
+    .friends {
+        margin: 0px;
+        padding: 0px;
+
+        max-width: 100%;
+
+        position: absolute;
+        left: 35%;
+        right: 0%;
+    }
+    .friend_card {
+        margin: 8px;
+        padding: 0px;
+
+        max-width: 100%;
+        max-height: 50px;
+
+        display: flex;
+        flex-direction: row;
+
+        border-radius: 40px;
+        box-shadow: 1px 1px 1px 1px rgb(239, 241, 243);
+        /* -1px -1px 2px 1px rgb(239, 241, 243); */
+
+        background-color: white;
+    }
+
+    .friend_card .friend_image {
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+        height: auto;
+    }
+
+    .friend_card .friend_image img {
+        margin: 0px;
+        padding: 0px;
+
+        height: 50px;
+        width: 50px;
+
+        object-fit: cover;
+        object-position: center;
+
+        border-radius: 100px;
+    }
+
+    .friend_card .friend_name {
+        margin: auto 5px;
+        padding: 0px;
+
+        height: 25px;
+
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: lighter;
+
+        color: black;
+    }
+}
+
+/* Desktop styling */
+@media (min-width: 1020px) {
+    .friends {
+        margin: 0px;
+        padding: 0px;
+
+        max-width: 100%;
+
+        position: absolute;
+        left: 30%;
+        right: 30%;
+    }
+}

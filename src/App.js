@@ -1,18 +1,12 @@
-import "./App"
+import "./App";
 import Routes from "./Routes/Routes";
 
-
-
-
 const App = () => {
+    return (
+        <div className="App">
+            <Routes />
+        </div>
+    );
+};
 
-  return (
-      <div className="App">
-              <Routes />
-      </div> 
-);
-
-
-}
- 
 export default App;

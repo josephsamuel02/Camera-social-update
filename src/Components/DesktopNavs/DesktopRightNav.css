@@ -1,245 +1,196 @@
-
-
 /* Mobile view Style */
 
-@media(max-width: 543px){
-    .desktoprightnav{
+@media (max-width: 543px) {
+    .desktoprightnav {
         display: none;
     }
+}
 
+/* for tablet view */
+
+@media (max-width: 1019px) {
+    .desktoprightnav {
+        display: none;
     }
-    
-    
-    /* for tablet view */
-    
-    @media(max-width: 1019px)  {
-        .desktoprightnav{
-            display: none;
-            
-        }
+}
+
+/* for desktop view */
+
+@media (min-width: 1020px) {
+    .desktoprightnav {
+        margin: 0px;
+        padding: 0px;
+
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        left: 70%;
+        bottom: 0px;
+
+        width: 30%;
+
+        background-color: white;
+
+        z-index: 4;
     }
 
+    .desktoprightnav #myinfo {
+        margin: 0px 0px 10px;
+        padding: auto;
 
-            /* for desktop view */
-    
-            @media(min-width: 1020px){
+        display: block;
 
-                .desktoprightnav{
-                margin: 0px;
-                padding: 0px;
+        height: auto;
+    }
 
-                position: fixed;
-                right: 0px;
-                top: 0px;
-                bottom: 0px;
+    #myinfo #userimg {
+        /* position: relative; */
+        margin: 10px auto;
+        padding: 0px;
+        width: 90px;
+        height: 90px;
+        border-radius: 100px;
+        box-shadow: 1px 1px 2px 1px rgba(226, 223, 223, 0.774),
+            -1px -1px 2px 1px rgba(226, 223, 223, 0.774);
+    }
 
-                width: 30%;
+    #userimg img {
+        margin: 0px;
+        padding: 5px;
 
-                background-color: white;
+        height: 80px;
+        width: 80px;
 
-                z-index: 4;
+        object-fit: cover;
+        object-position: center;
 
+        border-radius: 100px;
+    }
 
-                }
+    #myinfo #profilelink {
+        margin: 3px auto;
+        padding: 5px 1px;
 
+        font-size: 17px;
+        font-weight: lighter;
+        font-family: sans-serif;
+        color: dodgerblue;
+        background-color: white;
 
-                .desktoprightnav #myinfo{
-                    margin: 0px 0px 10px;
-                    padding: auto;
+        width: 120px;
+        display: flex;
+        flex-direction: row;
 
-                    display: block;
+        text-align: center;
+        justify-content: center;
 
-                    height: auto;
+        border-radius: 40px;
+        cursor: pointer;
 
-                }
+        box-shadow: 1px 1px 4px 1px rgba(223, 223, 226, 0.438),
+            -1px -1px 4px 1px rgba(223, 223, 226, 0.438);
+    }
 
+    #profilelink span {
+        margin: 0px;
+        padding: 0px 0px 0px 5px;
+    }
 
-                #myinfo #userimg{
-                   /* position: relative; */
-                   margin: 10px auto;
-                   padding: 0px;
-                   width: 90px;
-                   height: 90px;
-                   border-radius: 100px;
-                   box-shadow: 1px 1px 2px 1px rgba(226, 223, 223, 0.774),
-                   -1px -1px 2px 1px rgba(226, 223, 223, 0.774);
-                }
+    #dsk_rightnav_timeline {
+        margin: 0px;
+        padding: 0px 5px;
+        max-width: 100%;
+        max-height: 80%;
 
+        background-color: white;
 
-                 #userimg img{
-                     margin: 0px;
-                     padding: 5px;
+        overflow: scroll;
+    }
 
-                    height: 80px;
-                    width: 80px;
+    #dsk_rightnav_timeline .dsk_timline_card {
+        margin: 5px auto;
+        padding: 0px 0px 5px 0px;
+        width: 80%;
+        height: auto;
+        overflow: hidden;
 
-                    object-fit: cover;
-                    object-position: center;
+        justify-content: center;
 
-                    border-radius: 100px;
+        background-color: white;
 
+        box-shadow: 1px 1px 4px 1px rgba(230, 226, 226, 0.699),
+            -1px -1px 4px 1px rgba(230, 226, 226, 0.699);
 
-                 }
+        border-radius: 7px;
+    }
 
+    .dsk_timline_card .poster_info {
+        margin: 0px;
+        padding: 0px;
 
-                 #myinfo #profilelink{
-                     margin: 3px auto;
-                     padding: 5px 1px;
+        display: flex;
+        flex-direction: row;
 
-                     font-size: 17px;
-                     font-weight: lighter;
-                     font-family: sans-serif;
-                     color: dodgerblue;
-                     background-color: white;
+        /* justify-content: center; */
+    }
 
-                     width: 120px;
-                     display: flex;
-                     flex-direction: row;
-
-                     text-align: center;
-                     justify-content: center;
-
-                     border-radius: 40px;
-                     cursor: pointer;
-
-
-                     box-shadow: 1px 1px 4px 1px rgba(223, 223, 226, 0.438),
-                     -1px -1px 4px 1px rgba(223, 223, 226, 0.438);
-
-
-                 }
-
-
-                  #profilelink span{
-                      margin: 0px;
-                      padding: 0px 0px 0px 5px;
-
-                  }
-
-
-                  #dsk_rightnav_timeline{
-                      margin: 0px;
-                      padding: 0px 5px;
-                      max-width: 100%;
-                      max-height: 80%;
-
-                      background-color: white;
-
-
-                      overflow: scroll;
-
-                  }
-
-                  #dsk_rightnav_timeline .dsk_timline_card{
-                      margin: 5px auto;
-                      padding: 0px 0px 5px 0px;
-                      width: 80%;
-                      height: auto;
-                      overflow: hidden;
-
-                      justify-content: center;
-
-                      background-color: white;
-
-                      box-shadow: 1px 1px 4px 1px rgba(230, 226, 226, 0.699),
-                      -1px -1px 4px 1px rgba(230, 226, 226, 0.699);
-
-                      border-radius: 7px;
-
-
-                  }
-
-                  .dsk_timline_card .poster_info{
-                      margin: 0px;
-                      padding: 0px;
-
-                      display: flex;
-                      flex-direction: row;
-
-                      /* justify-content: center; */
-
-                  }
-
-                  .dsk_timline_card .poster_info img{
-                      margin: 3px;
-                      padding: auto;
-
-                      width: 34px;
-                      height: 34px;
-
-                      border-radius: 100px;
-
-                  }
-
-
-                  .dsk_timline_card .poster_info span {
-                      margin: auto 5px ;
-                      padding: 0px;
-
-                      font-size: 14px;
-                      font-family: sans-serif;
-                      font-weight: lighter;
-                      color: blue;
-
-                      
-                  }
-
-                  .dsk_timline_card img{
-
-                    margin: 0px;
-                    padding: 0px;
-
-                    width: 100%;
-                    max-height: 150px;
-
-                    object-fit: cover;
-                    object-position: center;
-
-
-
-                  }
-
-
-                  .dsk_timline_card .card_text {
-
-                    margin: 0px;
-                    padding: 7px;
-
-                    max-height: 80px;
-                    overflow: hidden;
-
-                    text-justify: distribute;
-                    /* text-align: justify; */
-
-
-
-                  } 
-
-
-                  .dsk_timline_card .card_text span{
-
-                    margin: 0px;
-                    padding: 2px 8px;
-
-                    font-size: 13px;
-                    font-family: sans-serif;
-                    font-weight: lighter;
-                    color:rgb(40, 43, 42);
-
-                    word-wrap:break-word;
-                    word-spacing: 1px;
-                    line-height: 16px;
-
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-
-
-
-
-
-                  }
-
-
-
-            }
+    .dsk_timline_card .poster_info img {
+        margin: 3px;
+        padding: auto;
+
+        width: 34px;
+        height: 34px;
+
+        border-radius: 100px;
+    }
+
+    .dsk_timline_card .poster_info span {
+        margin: auto 5px;
+        padding: 0px;
+
+        font-size: 14px;
+        font-family: sans-serif;
+        font-weight: lighter;
+        color: blue;
+    }
+
+    .dsk_timline_card img {
+        margin: 0px;
+        padding: 0px;
+
+        width: 100%;
+        max-height: 150px;
+
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .dsk_timline_card .card_text {
+        margin: 0px;
+        padding: 7px;
+
+        max-height: 80px;
+        overflow: hidden;
+
+        text-justify: distribute;
+        /* text-align: justify; */
+    }
+
+    .dsk_timline_card .card_text span {
+        margin: 0px;
+        padding: 2px 8px;
+
+        font-size: 13px;
+        font-family: sans-serif;
+        font-weight: lighter;
+        color: rgb(40, 43, 42);
+
+        word-wrap: break-word;
+        word-spacing: 1px;
+        line-height: 16px;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
