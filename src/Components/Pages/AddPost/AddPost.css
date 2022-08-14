@@ -3,7 +3,7 @@
 }
 
 /* Mobile view */
-@media (max-width: 543.9px) {
+@media (max-width: 543px) {
     .addpost {
         margin: 0px;
         padding: 0px;
@@ -131,7 +131,7 @@
     }
 }
 /* for tablet view */
-@media (min-width: 544px) {
+@media (min-width: 543px) {
     .addpost {
         margin: 0px;
         padding: 0px;
