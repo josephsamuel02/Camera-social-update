@@ -24,7 +24,7 @@ const NewsPage = () => {
                 </div>
 
                 <h1 className="headline">
-                Breaking News: FGN Talks About Reimplimenting Subcidy
+                Breaking News: FGN Talks About Reimplementing Subcidy
                 </h1>
                 <div className="sub_headline">
                     <p> laurem ipsum dolor sit ipsum dolor sit amet!
@@ -56,7 +56,7 @@ const NewsPage = () => {
                 </div>
 
                 <h1 className="headline">
-                Breaking News: FGN Talks About Reimplimenting Subcidy
+                Breaking News: FGN Talks About Reimplementing Subcidy
                 </h1>
                 <div className="sub_headline">
                     <p> laurem ipsum dolor sit ipsum dolor sit amet!
@@ -87,7 +87,7 @@ const NewsPage = () => {
                 </div>
 
                 <h1 className="headline">
-                Breaking News: FGN Talks About Reimplimenting Subcidy
+                Breaking News: FGN Talks About Reimplementing Subcidy
                 </h1>
                 <div className="sub_headline">
                     <p> laurem ipsum dolor sit ipsum dolor sit amet!
@@ -150,7 +150,7 @@ const NewsPage = () => {
                 </div>
 
                 <h1 className="headline">
-                Breaking News: FGN Talks About Reimplimenting Subcidy
+                Breaking News: FGN Talks About Reimplementing Subcidy
                 </h1>
                 <div className="sub_headline">
                     <p> laurem ipsum dolor sit ipsum dolor sit amet!
@@ -181,7 +181,7 @@ const NewsPage = () => {
                 </div>
 
                 <h1 className="headline">
-                Breaking News: FGN Talks About Reimplimenting Subcidy
+                Breaking News: FGN Talks About Reimplementing Subcidy
                 </h1>
                 <div className="sub_headline">
                     <p> laurem ipsum dolor sit ipsum dolor sit amet!
